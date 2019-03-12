@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28705.295
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoesGetFunctionPointerForDelegateHonorConvention", "DoesGetFunctionPointerForDelegateHonorConvention\DoesGetFunctionPointerForDelegateHonorConvention.csproj", "{2E8C91B3-37D7-464E-9FD9-33913BA4B974}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE289299-5B67-4A29-9EEB-F08BE04EA2DC} = {EE289299-5B67-4A29-9EEB-F08BE04EA2DC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeCode", "NativeCode\NativeCode.vcxproj", "{EE289299-5B67-4A29-9EEB-F08BE04EA2DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E8C91B3-37D7-464E-9FD9-33913BA4B974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8C91B3-37D7-464E-9FD9-33913BA4B974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8C91B3-37D7-464E-9FD9-33913BA4B974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8C91B3-37D7-464E-9FD9-33913BA4B974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE289299-5B67-4A29-9EEB-F08BE04EA2DC}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{EE289299-5B67-4A29-9EEB-F08BE04EA2DC}.Debug|Any CPU.Build.0 = Debug|Win32
+		{EE289299-5B67-4A29-9EEB-F08BE04EA2DC}.Release|Any CPU.ActiveCfg = Release|Win32
+		{EE289299-5B67-4A29-9EEB-F08BE04EA2DC}.Release|Any CPU.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFA27EC8-3626-4629-A2F9-8603D538FEE3}
+	EndGlobalSection
+EndGlobal
